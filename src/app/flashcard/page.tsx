@@ -34,8 +34,8 @@ export default function FlashcardPage() {
         id: "f1",
         type: "video",
         content: "",
-        videoUrl: "/video-1.mov",
-        backgroundImage: "/video-1.mov",
+        videoUrl: "/video-1.mp4",
+        backgroundImage: "/video-1.mp4",
       },
       {
         id: "f2",
