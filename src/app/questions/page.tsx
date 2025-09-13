@@ -109,7 +109,7 @@ export default function QuestionsPage() {
                 <div className="flex-1 flex flex-col gap-3">
                   <button
                     onClick={() => handleLevelSelect(5)}
-                    className="w-full flex items-center px-[15px] h-[60px] bg-[#FFFFFF0A] active:bg-[#FFFFFF26] border border-[#FFFFFF33] rounded-[30px] text-white transition-all"
+                    className="w-full flex items-center px-[15px] h-[60px] bg-[#FFFFFF26] active:bg-[#FFFFFF26] border border-[#FFFFFF33] rounded-[30px] text-white transition-all"
 
                   >
                     <span className="w-[28px] h-[28px] inline-flex items-center justify-center bg-[#353535] rounded-full mr-2.5 font-bold text-[14px] text-[#FFFFFF80]">5</span><span className="text-[16px] text-white">I’m hungry to compete and chase growth.</span>
@@ -120,7 +120,7 @@ export default function QuestionsPage() {
                     className="w-full flex items-center px-[15px] h-[60px] bg-[#FFFFFF0A] active:bg-[#FFFFFF26] border border-[#FFFFFF33] rounded-[30px] text-white transition-all"
 
                   >
-                    <span className="w-[28px] h-[28px] inline-flex items-center justify-center bg-[#353535] rounded-full mr-2.5 font-bold text-[14px] text-[#FFFFFF80]">4</span><span className="text-[16px] text-white">I’m motivated and pushing myself most days.</span>
+                    <span className="w-[28px] h-[28px] inline-flex items-center justify-center bg-[#353535] rounded-full mr-2.5 font-bold text-[14px] text-[#FFFFFF80]">4</span><span className="text-[16px] text-left text-white">I’m motivated and pushing myself most days.</span>
                   </button>
 
                   <button
@@ -159,7 +159,7 @@ export default function QuestionsPage() {
                 <div className="flex-1 flex flex-col gap-3">
                   <button
                     onClick={() => handleReasonSelect('I\’m coming off a breakthrough.')}
-                    className="w-full flex items-center justify-center h-[60px] bg-[#FFFFFF0A] active:bg-[#FFFFFF26] border border-[#FFFFFF33] rounded-[30px] text-white transition-all"
+                    className="w-full flex items-center justify-center h-[60px] bg-[#FFFFFF26] active:bg-[#FFFFFF26] border border-[#FFFFFF33] rounded-[30px] text-white transition-all"
 
                   >
                     <span className="text-[16px]">I’m coming off a breakthrough. </span>
