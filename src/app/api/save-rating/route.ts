@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
         console.log('New sheet created');
       } else {
         console.log('Using existing DTE-4 sheet');
-        // Load headers to ensure they exist
+        // Load headers to ensure they 
         await sheet.loadHeaderRow();
       }
 
