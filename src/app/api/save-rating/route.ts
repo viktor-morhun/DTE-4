@@ -89,12 +89,12 @@ export async function POST(request: NextRequest) {
         });
         console.log('New sheet created');
       } else {
-        console.log('Using existing Ratings sheet');
+        console.log('Using existing DTE-4 sheet');
         // Load headers to ensure they exist
         await sheet.loadHeaderRow();
       }
 
-      // Prepare row data for Google Sheets
+      // Prepare row data
       const rowData = {
         'Timestamp': ratingData.timestamp,
         'Helpful Rating': ratingData.helpfulRating.toString(),
