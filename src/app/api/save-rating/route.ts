@@ -71,12 +71,12 @@ export async function POST(request: NextRequest) {
       console.log('Document loaded:', doc.title);
 
       // Get or create the ratings sheet
-      let sheet = doc.sheetsByTitle['Ratings-DTE4'];
+      let sheet = doc.sheetsByTitle['DTE-4'];
       
       if (!sheet) {
-        console.log('Creating new Ratings-DTE4 sheet...');
+        console.log('Creating new DTE-4 sheet...');
         sheet = await doc.addSheet({
-          title: 'Ratings-DTE4',
+          title: 'DTE-4',
           headerValues: [
             'Timestamp',
             'Helpful Rating',
