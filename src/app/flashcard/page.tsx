@@ -29,16 +29,12 @@ export default function LandingPage() {
         videoUrl: "/video-1.mp4",
         backgroundImage: "/video-1.mp4",
         groupId: "step1",
-        showInputAfterVideo: true,
-        title:
-          "What’s one habit that has helped build your current confidence?",
-        content: "Is it still active, or is it starting to slip?",
+        
       },
       {
         id: "f2",
         type: "input",
         groupId: "step1",
-
         title:
           "What’s one habit that has helped build your current confidence?",
         content: "Is it still active, or is it starting to slip?",
